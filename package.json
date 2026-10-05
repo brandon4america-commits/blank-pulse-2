@@ -1,0 +1,22 @@
+{
+  "name": "pulsefs--raw-block-provisioner",
+  "version": "1.3",
+  "description": "Mutated into a bare-metal raw block streaming architecture inspired by low-level device image flashing. Bridges the micro-kernel foundation with direct unbuffered 4MB block I/O pipelining, hardware fsync synchronization watchdogs, and live byte-stream telemetry.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "latest",
+    "clsx": "latest",
+    "tailwind-merge": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "^5.5.0",
+    "vite": "^6.0.0"
+  }
+}
